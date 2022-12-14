@@ -17,6 +17,7 @@ class Restaurant {
     var rating: Double
     var reviews: Int
     
+    //initializers for Restaurant
     init(dict: [String: Any]){
         imageURL = URL(string: dict["image_url"] as! String)
         name = dict["name"] as! String
@@ -28,6 +29,7 @@ class Restaurant {
         mainCategory = Restaurant.getMainCategory(dict: dict)
     }
     
+    //helper function to get first category from restaurant
     static func getMainCategory(dict: [String: Any]) -> String {
         let categories = dict["categores"] as! [[String: Any]]
         return categories[0]["title"] as! String
