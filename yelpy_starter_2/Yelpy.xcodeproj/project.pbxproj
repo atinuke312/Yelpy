@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B8930257294A8255006924D1 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8930256294A8255006924D1 /* Restaurant.swift */; };
+		B8930259294A8A08006924D1 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8930258294A8A08006924D1 /* RestaurantDetailViewController.swift */; };
 		BB47B3AA247739640029FFF6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47B3A9247739640029FFF6 /* API.swift */; };
 		BB47B3AF2477426A0029FFF6 /* exampleAPI.json in Resources */ = {isa = PBXBuildFile; fileRef = BB47B3AE2477426A0029FFF6 /* exampleAPI.json */; };
 		BB47B3B82477565E0029FFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB47B3B62477565E0029FFF6 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		4F45387EF0BCD4FD0EAD369F /* Pods_Yelpy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelpy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F962A73D0A55B6E930DC45 /* Pods-Yelpy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelpy.release.xcconfig"; path = "Target Support Files/Pods-Yelpy/Pods-Yelpy.release.xcconfig"; sourceTree = "<group>"; };
 		B8930256294A8255006924D1 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		B8930258294A8A08006924D1 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		BB47B3A9247739640029FFF6 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		BB47B3AE2477426A0029FFF6 /* exampleAPI.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exampleAPI.json; sourceTree = "<group>"; };
 		BB47B3B72477565E0029FFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		BB47B3AC247739890029FFF6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B8930258294A8A08006924D1 /* RestaurantDetailViewController.swift */,
 				BBEBF10F247738A50044AFE0 /* RestaurantsViewController.swift */,
 			);
 			path = Controllers;
@@ -272,6 +275,7 @@
 			files = (
 				BBC34B1A248075140001BE0B /* RestaurantCell.swift in Sources */,
 				BBEBF110247738A50044AFE0 /* RestaurantsViewController.swift in Sources */,
+				B8930259294A8A08006924D1 /* RestaurantDetailViewController.swift in Sources */,
 				BB47B3AA247739640029FFF6 /* API.swift in Sources */,
 				B8930257294A8255006924D1 /* Restaurant.swift in Sources */,
 				BBE518382484812500D0F8B6 /* YelpStars.swift in Sources */,

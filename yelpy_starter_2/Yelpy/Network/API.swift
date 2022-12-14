@@ -15,7 +15,7 @@ struct API {
     static func getRestaurants(completion: @escaping ([Restaurant]?) -> Void) {
         
         // ––––– TODO: Add your own API key!
-        let apikey = ""
+        let apikey = "RP9-GbIBQEKmV7RYWgw9tOevG30i76ePfcg9U21IXUUCPfw_1gN0hGPAQaQo7LJib-r1fgzs1JCd4q8L8CmpICCIgLI5b6NdQzYQDVWAA3sN9iPE6twRmIw7MQQ6Y3Yx"
         
         // Coordinates for San Francisco
         let lat = 37.773972
