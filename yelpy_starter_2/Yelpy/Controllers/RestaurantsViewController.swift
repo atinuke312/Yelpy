@@ -16,7 +16,7 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
     // ––––– TODO: Build Restaurant Class
     
     // –––––– TODO: Update restaurants Array to an array of Restaurants
-    var restaurantsArray: [[String:Any?]] = []
+    var restaurantsArray: [Restaurant] = []
     
     
     override func viewDidLoad() {
