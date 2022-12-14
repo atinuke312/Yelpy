@@ -25,13 +25,12 @@ class Restaurant {
         reviews = dict["review_count"] as! Int
         phone = dict["display_phone"] as! String
         url = URL(string: dict["url"] as! String)
-        url = URL(string: dict["url"] as! String)
         mainCategory = Restaurant.getMainCategory(dict: dict)
     }
     
     //helper function to get first category from restaurant
     static func getMainCategory(dict: [String: Any]) -> String {
-        let categories = dict["categores"] as! [[String: Any]]
+        let categories = dict["categories"] as! [[String: Any]]
         return categories[0]["title"] as! String
     }
 }
